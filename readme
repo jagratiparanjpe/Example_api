@@ -1,0 +1,9 @@
+1. Extract Data
+
+2. This Progaram extracts data (i.e. total no of confiremed covid cases,
+total no of deaths and  total no of recovered cases for given iso and date)
+in Covid_Data excel sheet.
+This extarcts data from https://covid-api.com/api/reports? api
+
+3.example usage: python extract_data.py --inputfile <input_file_path>
+ example1 python extract_data.py --inputfile config.json
